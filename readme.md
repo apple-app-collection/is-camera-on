@@ -6,22 +6,21 @@ The camera is commonly known as FaceTime HD or iSight.
 
 This module can be useful to check if the camera is already in use or notify you if it's turned on when you didn't intend it to be.
 
-
 ## Requirements
 
 - macOS 10.11+
 - Xcode 11+
 - Swift 5.1+
 
-
 ## Install
 
-#### SwiftPM
+Add the following to `Package.swift`:
 
 ```swift
 .package(url: "https://github.com/sindresorhus/is-camera-on", from: "2.0.0")
 ```
 
+[Or add the package in Xcode.](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app)
 
 ## Usage
 
@@ -31,7 +30,6 @@ import IsCameraOn
 print(isCameraOn())
 //=> true
 ```
-
 
 ## Related
 
