@@ -9,8 +9,8 @@ This module can be useful to check if the camera is already in use or notify you
 ## Requirements
 
 - macOS 10.11+
-- Xcode 11+
-- Swift 5.1+
+- Xcode 12+
+- Swift 5.3+
 
 ## Install
 
